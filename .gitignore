@@ -31,3 +31,12 @@
 # Debug files
 *.dSYM/
 *.su
+
+#CMake
+CMakeFiles/
+Makefile
+CMakeCache.txt
+CPackConfig.cmake
+CPackSourceConfig.cmake
+cmake_install.cmake
+CTestTestfile.cmake
