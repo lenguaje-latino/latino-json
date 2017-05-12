@@ -1,0 +1,11 @@
+/usr/lib/liblatino-json.so
+/usr/lib/libjansson.so.4.10.0
+/usr/lib/libjansson.so.4
+/usr/lib/libjansson.so
+/usr/include/jansson_config.h
+/usr/include/jansson.h
+/usr/lib/pkgconfig/jansson.pc
+/usr/lib/cmake/jansson/JanssonConfig.cmake
+/usr/lib/cmake/jansson/JanssonConfigVersion.cmake
+/usr/lib/cmake/jansson/JanssonTargets.cmake
+/usr/lib/cmake/jansson/JanssonTargets-noconfig.cmake

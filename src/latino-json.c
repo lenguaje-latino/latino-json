@@ -209,6 +209,6 @@ static const lat_CReg libjson[] = {{"decodificar", json_decodificar, 1},
                                    {"formato", json_formato, 1},
                                    {NULL, NULL}};
 
-void latMV_abrir_latjsonlib(lat_mv *mv) {
-  latMV_abrir_lib(mv, LIB_JSON_NAME, libjson);
+void latC_abrir_liblatino_json(lat_mv *mv) {
+  latC_abrir_liblatino(mv, LIB_JSON_NAME, libjson);
 }
