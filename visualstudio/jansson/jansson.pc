@@ -1,0 +1,10 @@
+prefix=C:/Program Files (x86)/latino-json
+exec_prefix=C:/Program Files (x86)/latino-json
+libdir=C:/Program Files (x86)/latino-json/lib
+includedir=
+
+Name: Jansson
+Description: Library for encoding, decoding and manipulating JSON data
+Version: 2.10
+Libs: -L${libdir} -ljansson
+Cflags: -I${includedir}

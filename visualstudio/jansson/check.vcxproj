@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{0DFD0287-19C8-3F88-A675-DD43387521E2}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>check</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\color\src\latino-json\visualstudio\jansson\include;C:\Users\color\src\latino-json\visualstudio\jansson\private_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\color\src\latino-json\visualstudio\jansson\include;C:\Users\color\src\latino-json\visualstudio\jansson\private_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\color\src\latino-json\visualstudio\jansson\include;C:\Users\color\src\latino-json\visualstudio\jansson\private_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\color\src\latino-json\visualstudio\jansson\include;C:\Users\color\src\latino-json\visualstudio\jansson\private_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\color\src\latino-json\jansson\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/color/src/latino-json/jansson/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/color/src/latino-json -BC:/Users/color/src/latino-json/visualstudio --check-stamp-file C:/Users/color/src/latino-json/visualstudio/jansson/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/color/src/latino-json/jansson/CMakeLists.txt;C:\Users\color\src\latino-json\jansson\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.cmake;C:\Users\color\src\latino-json\jansson\cmake\CheckFunctionKeywords.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__INT64.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT64_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\LONG_LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT32_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__INT32.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_SHORT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT32_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT32.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT16_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT16.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT8_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT8.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Users\color\src\latino-json\jansson\cmake\jansson_config.h.cmake;C:\Users\color\src\latino-json\jansson\cmake\jansson_private_config.h.cmake;C:\Users\color\src\latino-json\jansson\cmake\FindSphinx.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\color\src\latino-json\jansson\jansson.pc.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfig.cmake.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfig.cmake.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfigVersion.cmake.in;C:\Users\color\src\latino-json\jansson\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\color\src\latino-json\visualstudio\jansson\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/color/src/latino-json/jansson/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/color/src/latino-json -BC:/Users/color/src/latino-json/visualstudio --check-stamp-file C:/Users/color/src/latino-json/visualstudio/jansson/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/color/src/latino-json/jansson/CMakeLists.txt;C:\Users\color\src\latino-json\jansson\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.cmake;C:\Users\color\src\latino-json\jansson\cmake\CheckFunctionKeywords.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__INT64.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT64_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\LONG_LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT32_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__INT32.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_SHORT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT32_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT32.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT16_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT16.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT8_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT8.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Users\color\src\latino-json\jansson\cmake\jansson_config.h.cmake;C:\Users\color\src\latino-json\jansson\cmake\jansson_private_config.h.cmake;C:\Users\color\src\latino-json\jansson\cmake\FindSphinx.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\color\src\latino-json\jansson\jansson.pc.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfig.cmake.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfig.cmake.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfigVersion.cmake.in;C:\Users\color\src\latino-json\jansson\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\color\src\latino-json\visualstudio\jansson\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/color/src/latino-json/jansson/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/color/src/latino-json -BC:/Users/color/src/latino-json/visualstudio --check-stamp-file C:/Users/color/src/latino-json/visualstudio/jansson/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/color/src/latino-json/jansson/CMakeLists.txt;C:\Users\color\src\latino-json\jansson\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.cmake;C:\Users\color\src\latino-json\jansson\cmake\CheckFunctionKeywords.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__INT64.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT64_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\LONG_LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT32_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__INT32.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_SHORT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT32_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT32.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT16_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT16.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT8_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT8.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Users\color\src\latino-json\jansson\cmake\jansson_config.h.cmake;C:\Users\color\src\latino-json\jansson\cmake\jansson_private_config.h.cmake;C:\Users\color\src\latino-json\jansson\cmake\FindSphinx.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\color\src\latino-json\jansson\jansson.pc.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfig.cmake.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfig.cmake.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfigVersion.cmake.in;C:\Users\color\src\latino-json\jansson\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\color\src\latino-json\visualstudio\jansson\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/color/src/latino-json/jansson/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/color/src/latino-json -BC:/Users/color/src/latino-json/visualstudio --check-stamp-file C:/Users/color/src/latino-json/visualstudio/jansson/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/color/src/latino-json/jansson/CMakeLists.txt;C:\Users\color\src\latino-json\jansson\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.cmake;C:\Users\color\src\latino-json\jansson\cmake\CheckFunctionKeywords.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__INT64.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT64_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\LONG_LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT32_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__INT32.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_SHORT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT32_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT32.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT16_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT16.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT8_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT8.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Users\color\src\latino-json\jansson\cmake\jansson_config.h.cmake;C:\Users\color\src\latino-json\jansson\cmake\jansson_private_config.h.cmake;C:\Users\color\src\latino-json\jansson\cmake\FindSphinx.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\color\src\latino-json\jansson\jansson.pc.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfig.cmake.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfig.cmake.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfigVersion.cmake.in;C:\Users\color\src\latino-json\jansson\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\color\src\latino-json\visualstudio\jansson\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\color\src\latino-json\visualstudio\CMakeFiles\3e8e87c5cdc1dd697f9170574505dbac\check.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\ctest.exe"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/color/src/latino-json/visualstudio/CMakeFiles/3e8e87c5cdc1dd697f9170574505dbac/check.rule;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Debug\json_process.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Debug\test_array.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Debug\test_copy.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Debug\test_dump.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Debug\test_dump_callback.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Debug\test_equal.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Debug\test_load.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Debug\test_loadb.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Debug\test_number.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Debug\test_object.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Debug\test_pack.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Debug\test_simple.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Debug\test_unpack.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\color\src\latino-json\visualstudio\jansson\CMakeFiles\check</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\ctest.exe"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/color/src/latino-json/visualstudio/CMakeFiles/3e8e87c5cdc1dd697f9170574505dbac/check.rule;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Release\json_process.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Release\test_array.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Release\test_copy.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Release\test_dump.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Release\test_dump_callback.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Release\test_equal.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Release\test_load.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Release\test_loadb.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Release\test_number.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Release\test_object.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Release\test_pack.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Release\test_simple.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\Release\test_unpack.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\color\src\latino-json\visualstudio\jansson\CMakeFiles\check</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\ctest.exe"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/color/src/latino-json/visualstudio/CMakeFiles/3e8e87c5cdc1dd697f9170574505dbac/check.rule;C:\Users\color\src\latino-json\visualstudio\jansson\bin\MinSizeRel\json_process.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\MinSizeRel\test_array.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\MinSizeRel\test_copy.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\MinSizeRel\test_dump.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\MinSizeRel\test_dump_callback.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\MinSizeRel\test_equal.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\MinSizeRel\test_load.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\MinSizeRel\test_loadb.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\MinSizeRel\test_number.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\MinSizeRel\test_object.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\MinSizeRel\test_pack.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\MinSizeRel\test_simple.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\MinSizeRel\test_unpack.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\color\src\latino-json\visualstudio\jansson\CMakeFiles\check</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\ctest.exe"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/color/src/latino-json/visualstudio/CMakeFiles/3e8e87c5cdc1dd697f9170574505dbac/check.rule;C:\Users\color\src\latino-json\visualstudio\jansson\bin\RelWithDebInfo\json_process.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\RelWithDebInfo\test_array.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\RelWithDebInfo\test_copy.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\RelWithDebInfo\test_dump.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\RelWithDebInfo\test_dump_callback.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\RelWithDebInfo\test_equal.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\RelWithDebInfo\test_load.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\RelWithDebInfo\test_loadb.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\RelWithDebInfo\test_number.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\RelWithDebInfo\test_object.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\RelWithDebInfo\test_pack.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\RelWithDebInfo\test_simple.exe;C:\Users\color\src\latino-json\visualstudio\jansson\bin\RelWithDebInfo\test_unpack.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\color\src\latino-json\visualstudio\jansson\CMakeFiles\check</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\color\src\latino-json\visualstudio\jansson\CMakeFiles\check" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\color\src\latino-json\visualstudio\ZERO_CHECK.vcxproj">
+      <Project>{36E236D5-ECF2-36AC-A8A6-00FDC9C9156F}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\color\src\latino-json\visualstudio\jansson\json_process.vcxproj">
+      <Project>{868CB3AF-AE5D-3638-807E-8875B43C1F63}</Project>
+      <Name>json_process</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\color\src\latino-json\visualstudio\jansson\test_array.vcxproj">
+      <Project>{73646649-4E29-348D-838C-07C8952D8B75}</Project>
+      <Name>test_array</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\color\src\latino-json\visualstudio\jansson\test_copy.vcxproj">
+      <Project>{85C1C8A2-018A-333B-94E5-1B2D94533798}</Project>
+      <Name>test_copy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\color\src\latino-json\visualstudio\jansson\test_dump.vcxproj">
+      <Project>{692D98DF-CDF0-3D28-8B49-9FBF7E40B6D6}</Project>
+      <Name>test_dump</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\color\src\latino-json\visualstudio\jansson\test_dump_callback.vcxproj">
+      <Project>{3C62C986-6C3A-37BD-B3A6-4464CA964296}</Project>
+      <Name>test_dump_callback</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\color\src\latino-json\visualstudio\jansson\test_equal.vcxproj">
+      <Project>{4692762F-0C9D-30FC-9FDE-13E9AE9B89C0}</Project>
+      <Name>test_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\color\src\latino-json\visualstudio\jansson\test_load.vcxproj">
+      <Project>{06A5DC2D-CD4C-3A76-B2C0-6459B35BF919}</Project>
+      <Name>test_load</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\color\src\latino-json\visualstudio\jansson\test_loadb.vcxproj">
+      <Project>{34659A94-4283-35C9-AE3D-1072DBBEB86A}</Project>
+      <Name>test_loadb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\color\src\latino-json\visualstudio\jansson\test_number.vcxproj">
+      <Project>{3BD4CC4E-E905-3889-BAAD-8E870049CCB3}</Project>
+      <Name>test_number</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\color\src\latino-json\visualstudio\jansson\test_object.vcxproj">
+      <Project>{B42B2B00-CCE2-3FE1-B8FD-4B4CE6D710EC}</Project>
+      <Name>test_object</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\color\src\latino-json\visualstudio\jansson\test_pack.vcxproj">
+      <Project>{BF394F72-E92F-3CC3-9D3C-11E58C93433F}</Project>
+      <Name>test_pack</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\color\src\latino-json\visualstudio\jansson\test_simple.vcxproj">
+      <Project>{282D533D-F34C-3AE4-A5B5-54075CACADA0}</Project>
+      <Name>test_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\color\src\latino-json\visualstudio\jansson\test_unpack.vcxproj">
+      <Project>{DB99EF5A-25C8-34FF-8A02-C0D1A76BF25B}</Project>
+      <Name>test_unpack</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

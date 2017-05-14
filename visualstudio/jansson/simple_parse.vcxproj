@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{930411C0-57C1-38C9-BB30-78E826B9AA05}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>simple_parse</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\color\src\latino-json\visualstudio\jansson\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">simple_parse.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">simple_parse</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\color\src\latino-json\visualstudio\jansson\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">simple_parse.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">simple_parse</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\color\src\latino-json\visualstudio\jansson\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">simple_parse.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">simple_parse</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\color\src\latino-json\visualstudio\jansson\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">simple_parse.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">simple_parse</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\color\src\latino-json\visualstudio\jansson\include;C:\Users\color\src\latino-json\visualstudio\jansson\private_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;JANSSON_USING_CMAKE;HAVE_CONFIG_H;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;JANSSON_USING_CMAKE;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\color\src\latino-json\visualstudio\jansson\include;C:\Users\color\src\latino-json\visualstudio\jansson\private_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\color\src\latino-json\visualstudio\jansson\include;C:\Users\color\src\latino-json\visualstudio\jansson\private_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;lib\Debug\jansson_d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/color/src/latino-json/visualstudio/jansson/lib/Debug/simple_parse.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/color/src/latino-json/visualstudio/jansson/bin/Debug/simple_parse.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\color\src\latino-json\visualstudio\jansson\include;C:\Users\color\src\latino-json\visualstudio\jansson\private_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4005;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;JANSSON_USING_CMAKE;HAVE_CONFIG_H;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;JANSSON_USING_CMAKE;HAVE_CONFIG_H;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\color\src\latino-json\visualstudio\jansson\include;C:\Users\color\src\latino-json\visualstudio\jansson\private_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\color\src\latino-json\visualstudio\jansson\include;C:\Users\color\src\latino-json\visualstudio\jansson\private_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;lib\Release\jansson.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/color/src/latino-json/visualstudio/jansson/lib/Release/simple_parse.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/color/src/latino-json/visualstudio/jansson/bin/Release/simple_parse.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\color\src\latino-json\visualstudio\jansson\include;C:\Users\color\src\latino-json\visualstudio\jansson\private_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4005;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;JANSSON_USING_CMAKE;HAVE_CONFIG_H;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;JANSSON_USING_CMAKE;HAVE_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\color\src\latino-json\visualstudio\jansson\include;C:\Users\color\src\latino-json\visualstudio\jansson\private_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\color\src\latino-json\visualstudio\jansson\include;C:\Users\color\src\latino-json\visualstudio\jansson\private_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;lib\MinSizeRel\jansson.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/color/src/latino-json/visualstudio/jansson/lib/MinSizeRel/simple_parse.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/color/src/latino-json/visualstudio/jansson/bin/MinSizeRel/simple_parse.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\color\src\latino-json\visualstudio\jansson\include;C:\Users\color\src\latino-json\visualstudio\jansson\private_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;JANSSON_USING_CMAKE;HAVE_CONFIG_H;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;JANSSON_USING_CMAKE;HAVE_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\color\src\latino-json\visualstudio\jansson\include;C:\Users\color\src\latino-json\visualstudio\jansson\private_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\color\src\latino-json\visualstudio\jansson\include;C:\Users\color\src\latino-json\visualstudio\jansson\private_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;lib\RelWithDebInfo\jansson.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/color/src/latino-json/visualstudio/jansson/lib/RelWithDebInfo/simple_parse.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/color/src/latino-json/visualstudio/jansson/bin/RelWithDebInfo/simple_parse.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\color\src\latino-json\jansson\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/color/src/latino-json/jansson/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/color/src/latino-json -BC:/Users/color/src/latino-json/visualstudio --check-stamp-file C:/Users/color/src/latino-json/visualstudio/jansson/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/color/src/latino-json/jansson/CMakeLists.txt;C:\Users\color\src\latino-json\jansson\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.cmake;C:\Users\color\src\latino-json\jansson\cmake\CheckFunctionKeywords.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__INT64.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT64_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\LONG_LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT32_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__INT32.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_SHORT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT32_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT32.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT16_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT16.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT8_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT8.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Users\color\src\latino-json\jansson\cmake\jansson_config.h.cmake;C:\Users\color\src\latino-json\jansson\cmake\jansson_private_config.h.cmake;C:\Users\color\src\latino-json\jansson\cmake\FindSphinx.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\color\src\latino-json\jansson\jansson.pc.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfig.cmake.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfig.cmake.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfigVersion.cmake.in;C:\Users\color\src\latino-json\jansson\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\color\src\latino-json\visualstudio\jansson\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/color/src/latino-json/jansson/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/color/src/latino-json -BC:/Users/color/src/latino-json/visualstudio --check-stamp-file C:/Users/color/src/latino-json/visualstudio/jansson/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/color/src/latino-json/jansson/CMakeLists.txt;C:\Users\color\src\latino-json\jansson\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.cmake;C:\Users\color\src\latino-json\jansson\cmake\CheckFunctionKeywords.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__INT64.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT64_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\LONG_LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT32_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__INT32.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_SHORT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT32_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT32.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT16_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT16.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT8_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT8.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Users\color\src\latino-json\jansson\cmake\jansson_config.h.cmake;C:\Users\color\src\latino-json\jansson\cmake\jansson_private_config.h.cmake;C:\Users\color\src\latino-json\jansson\cmake\FindSphinx.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\color\src\latino-json\jansson\jansson.pc.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfig.cmake.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfig.cmake.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfigVersion.cmake.in;C:\Users\color\src\latino-json\jansson\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\color\src\latino-json\visualstudio\jansson\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/color/src/latino-json/jansson/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/color/src/latino-json -BC:/Users/color/src/latino-json/visualstudio --check-stamp-file C:/Users/color/src/latino-json/visualstudio/jansson/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/color/src/latino-json/jansson/CMakeLists.txt;C:\Users\color\src\latino-json\jansson\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.cmake;C:\Users\color\src\latino-json\jansson\cmake\CheckFunctionKeywords.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__INT64.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT64_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\LONG_LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT32_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__INT32.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_SHORT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT32_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT32.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT16_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT16.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT8_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT8.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Users\color\src\latino-json\jansson\cmake\jansson_config.h.cmake;C:\Users\color\src\latino-json\jansson\cmake\jansson_private_config.h.cmake;C:\Users\color\src\latino-json\jansson\cmake\FindSphinx.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\color\src\latino-json\jansson\jansson.pc.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfig.cmake.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfig.cmake.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfigVersion.cmake.in;C:\Users\color\src\latino-json\jansson\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\color\src\latino-json\visualstudio\jansson\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/color/src/latino-json/jansson/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/color/src/latino-json -BC:/Users/color/src/latino-json/visualstudio --check-stamp-file C:/Users/color/src/latino-json/visualstudio/jansson/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/color/src/latino-json/jansson/CMakeLists.txt;C:\Users\color\src\latino-json\jansson\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.cmake;C:\Users\color\src\latino-json\jansson\cmake\CheckFunctionKeywords.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__INT64.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT64_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\LONG_LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT32_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__INT32.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_INT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UNSIGNED_SHORT.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT32_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT32.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT16_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT16.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UINT8_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\__UINT8.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckTypeSize.c.in;C:\Users\color\src\latino-json\visualstudio\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c;C:\Users\color\src\latino-json\jansson\cmake\jansson_config.h.cmake;C:\Users\color\src\latino-json\jansson\cmake\jansson_private_config.h.cmake;C:\Users\color\src\latino-json\jansson\cmake\FindSphinx.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\color\src\latino-json\jansson\jansson.pc.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfig.cmake.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfig.cmake.in;C:\Users\color\src\latino-json\jansson\cmake\JanssonConfigVersion.cmake.in;C:\Users\color\src\latino-json\jansson\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\color\src\latino-json\visualstudio\jansson\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\color\src\latino-json\jansson\examples\simple_parse.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\color\src\latino-json\visualstudio\ZERO_CHECK.vcxproj">
+      <Project>{36E236D5-ECF2-36AC-A8A6-00FDC9C9156F}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\color\src\latino-json\visualstudio\jansson\jansson.vcxproj">
+      <Project>{9FEFE29E-A811-328F-93A0-E36FA19BFCDE}</Project>
+      <Name>jansson</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

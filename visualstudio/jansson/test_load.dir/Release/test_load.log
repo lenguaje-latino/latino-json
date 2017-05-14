@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/color/src/latino-json/jansson/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/color/src/latino-json/visualstudio/jansson/CMakeFiles/generate.stamp is up-to-date.
+  test_load.c
+  test_load.vcxproj -> C:\Users\color\src\latino-json\visualstudio\jansson\bin\Release\test_load.exe
