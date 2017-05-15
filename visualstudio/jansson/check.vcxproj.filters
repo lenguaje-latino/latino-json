@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\color\src\latino-json\jansson\CMakeLists.txt" />
-    <CustomBuild Include="C:\Users\color\src\latino-json\visualstudio\CMakeFiles\3e8e87c5cdc1dd697f9170574505dbac\check.rule">
+    <CustomBuild Include="C:\src\latino-json\jansson\CMakeLists.txt" />
+    <CustomBuild Include="C:\src\latino-json\visualstudio\CMakeFiles\0200181cc3cc16b8a972a1cbbbb5b481\check.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\color\src\latino-json\visualstudio\jansson\CMakeFiles\check" />
+    <None Include="C:\src\latino-json\visualstudio\jansson\CMakeFiles\check" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{CF7AB457-241E-30ED-B19B-C40247FD73E9}</UniqueIdentifier>
+      <UniqueIdentifier>{81989F9E-2062-33D9-B480-8CE619630302}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

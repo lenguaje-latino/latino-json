@@ -24,6 +24,12 @@ THE SOFTWARE.
 
 #include <jansson.h>
 
+#ifdef _WIN32
+#define LATINO_BUILD_AS_DLL
+#endif
+
+#define LATINO_LIB
+
 #include <latino.h>
 
 #define LIB_JSON_NAME "json"
@@ -209,6 +215,6 @@ static const lat_CReg libjson[] = {{"decodificar", json_decodificar, 1},
                                    {"formato", json_formato, 1},
                                    {NULL, NULL}};
 
-void latC_abrir_liblatino_json(lat_mv *mv) {
+LATINO_API void latC_abrir_liblatino_json(lat_mv *mv) {
   latC_abrir_liblatino(mv, LIB_JSON_NAME, libjson);
 }

@@ -7,7 +7,7 @@
 get_filename_component(JANSSON_CMAKE_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
 
 # Set the include directories.
-set(JANSSON_INCLUDE_DIRS "C:/Users/color/src/latino-json/jansson/include;C:/Users/color/src/latino-json/visualstudio/jansson/include")
+set(JANSSON_INCLUDE_DIRS "C:/src/latino-json/jansson/include;C:/src/latino-json/visualstudio/jansson/include")
 
 # Include the project Targets file, this contains definitions for IMPORTED targets.
 include(${JANSSON_CMAKE_DIR}/JanssonTargets.cmake)

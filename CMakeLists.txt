@@ -4,6 +4,8 @@ project (latino-json)
 
 add_subdirectory(jansson)
 include_directories(jansson/include)
+include_directories(jansson/src)
+include_directories(include)
 
 add_library(latino-json SHARED src/latino-json.c)
 

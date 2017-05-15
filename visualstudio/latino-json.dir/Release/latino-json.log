@@ -1,6 +1,4 @@
-﻿  Building Custom Rule C:/Users/color/src/latino-json/CMakeLists.txt
-  CMake does not need to re-run because C:/Users/color/src/latino-json/visualstudio/CMakeFiles/generate.stamp is up-to-date.
+﻿  Building Custom Rule C:/src/latino-json/CMakeLists.txt
+  CMake does not need to re-run because C:\src\latino-json\visualstudio\CMakeFiles\generate.stamp is up-to-date.
   latino-json.c
-c:\bin\latino\include\latino.h(148): warning C4005: 'LATINO_API': macro redefinition
-  c:\bin\latino\include\latobj.h(28): note: see previous definition of 'LATINO_API'
-  latino-json.vcxproj -> C:\Users\color\src\latino-json\visualstudio\Release\latino-json.dll
+  latino-json.vcxproj -> C:\src\latino-json\visualstudio\Release\latino-json.dll

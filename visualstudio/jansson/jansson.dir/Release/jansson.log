@@ -1,16 +1,16 @@
-﻿  Building Custom Rule C:/Users/color/src/latino-json/jansson/CMakeLists.txt
-  CMake does not need to re-run because C:/Users/color/src/latino-json/visualstudio/jansson/CMakeFiles/generate.stamp is up-to-date.
+﻿  Building Custom Rule C:/src/latino-json/jansson/CMakeLists.txt
+  CMake does not need to re-run because C:\src\latino-json\visualstudio\jansson\CMakeFiles\generate.stamp is up-to-date.
   dump.c
-C:\Users\color\src\latino-json\jansson\src\dump.c(352): warning C4090: 'function': different 'const' qualifiers
-C:\Users\color\src\latino-json\jansson\src\dump.c(367): warning C4090: 'function': different 'const' qualifiers
-C:\Users\color\src\latino-json\jansson\src\dump.c(376): warning C4090: 'function': different 'const' qualifiers
-C:\Users\color\src\latino-json\jansson\src\dump.c(384): warning C4090: 'function': different 'const' qualifiers
-C:\Users\color\src\latino-json\jansson\src\dump.c(390): warning C4090: 'function': different 'const' qualifiers
+C:\src\latino-json\jansson\src\dump.c(352): warning C4090: 'function': different 'const' qualifiers
+C:\src\latino-json\jansson\src\dump.c(367): warning C4090: 'function': different 'const' qualifiers
+C:\src\latino-json\jansson\src\dump.c(376): warning C4090: 'function': different 'const' qualifiers
+C:\src\latino-json\jansson\src\dump.c(384): warning C4090: 'function': different 'const' qualifiers
+C:\src\latino-json\jansson\src\dump.c(390): warning C4090: 'function': different 'const' qualifiers
   error.c
   hashtable.c
   hashtable_seed.c
   load.c
-C:\Users\color\src\latino-json\jansson\src\load.c(1037): warning C4101: 'c': unreferenced local variable
+C:\src\latino-json\jansson\src\load.c(1037): warning C4101: 'c': unreferenced local variable
   memory.c
   pack_unpack.c
   strbuffer.c
@@ -18,4 +18,5 @@ C:\Users\color\src\latino-json\jansson\src\load.c(1037): warning C4101: 'c': unr
   utf.c
   value.c
   Generating Code...
-  jansson.vcxproj -> C:\Users\color\src\latino-json\visualstudio\jansson\lib\Release\jansson.lib
+     Creating library C:/src/latino-json/visualstudio/jansson/lib/Release/jansson.lib and object C:/src/latino-json/visualstudio/jansson/lib/Release/jansson.exp
+  jansson.vcxproj -> C:\src\latino-json\visualstudio\jansson\bin\Release\jansson.dll

@@ -1,75 +1,83 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\color\src\latino-json\jansson\src\dump.c">
+    <ClCompile Include="C:\src\latino-json\jansson\src\dump.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\color\src\latino-json\jansson\src\error.c">
+    <ClCompile Include="C:\src\latino-json\jansson\src\error.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\color\src\latino-json\jansson\src\hashtable.c">
+    <ClCompile Include="C:\src\latino-json\jansson\src\hashtable.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\color\src\latino-json\jansson\src\hashtable_seed.c">
+    <ClCompile Include="C:\src\latino-json\jansson\src\hashtable_seed.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\color\src\latino-json\jansson\src\load.c">
+    <ClCompile Include="C:\src\latino-json\jansson\src\load.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\color\src\latino-json\jansson\src\memory.c">
+    <ClCompile Include="C:\src\latino-json\jansson\src\memory.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\color\src\latino-json\jansson\src\pack_unpack.c">
+    <ClCompile Include="C:\src\latino-json\jansson\src\pack_unpack.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\color\src\latino-json\jansson\src\strbuffer.c">
+    <ClCompile Include="C:\src\latino-json\jansson\src\strbuffer.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\color\src\latino-json\jansson\src\strconv.c">
+    <ClCompile Include="C:\src\latino-json\jansson\src\strconv.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\color\src\latino-json\jansson\src\utf.c">
+    <ClCompile Include="C:\src\latino-json\jansson\src\utf.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\color\src\latino-json\jansson\src\value.c">
+    <ClCompile Include="C:\src\latino-json\jansson\src\value.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\color\src\latino-json\jansson\src\hashtable.h">
+    <ClInclude Include="C:\src\latino-json\jansson\src\hashtable.h">
       <Filter>Library Private Headers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\color\src\latino-json\jansson\src\jansson_private.h">
+    <ClInclude Include="C:\src\latino-json\jansson\src\jansson_private.h">
       <Filter>Library Private Headers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\color\src\latino-json\jansson\src\strbuffer.h">
+    <ClInclude Include="C:\src\latino-json\jansson\src\strbuffer.h">
       <Filter>Library Private Headers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\color\src\latino-json\jansson\src\utf.h">
+    <ClInclude Include="C:\src\latino-json\jansson\src\utf.h">
       <Filter>Library Private Headers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\color\src\latino-json\visualstudio\jansson\private_include\jansson_private_config.h">
+    <ClInclude Include="C:\src\latino-json\visualstudio\jansson\private_include\jansson_private_config.h">
       <Filter>Library Private Headers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\color\src\latino-json\visualstudio\jansson\include\jansson_config.h">
+    <ClInclude Include="C:\src\latino-json\visualstudio\jansson\include\jansson_config.h">
       <Filter>Library Public Headers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\color\src\latino-json\jansson\src\jansson.h">
+    <ClInclude Include="C:\src\latino-json\jansson\src\jansson.h">
       <Filter>Library Public Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\color\src\latino-json\jansson\CMakeLists.txt" />
+    <CustomBuild Include="C:\src\latino-json\jansson\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="C:\src\latino-json\jansson\src\jansson.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{26833ED8-AE4B-3079-82BF-C30F5894F309}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Library Sources">
-      <UniqueIdentifier>{8E523D97-65E7-3B48-95B9-25046CB0AC11}</UniqueIdentifier>
+      <UniqueIdentifier>{FD33516E-9E0D-3EA1-B6AA-37F5B639285E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Library Private Headers">
-      <UniqueIdentifier>{D38114A2-E638-36DB-857B-A646C5FD134F}</UniqueIdentifier>
+      <UniqueIdentifier>{6C5D70F8-D383-365D-8389-D29DC5340DCD}</UniqueIdentifier>
     </Filter>
     <Filter Include="Library Public Headers">
-      <UniqueIdentifier>{E33C131D-AF27-3522-BEBA-96D37AC34167}</UniqueIdentifier>
+      <UniqueIdentifier>{E869E136-7A52-31A7-A09A-D14EEC1F2471}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
