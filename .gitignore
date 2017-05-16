@@ -40,6 +40,7 @@ CPackConfig.cmake
 CPackSourceConfig.cmake
 cmake_install.cmake
 CTestTestfile.cmake
+install_manifest.txt
 
 #visual studio
 visualstudio/
