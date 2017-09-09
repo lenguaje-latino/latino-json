@@ -213,7 +213,7 @@ static void json_formato(lat_mv *mv) {
 static const lat_CReg libjson[] = {{"decodificar", json_decodificar, 1},
                                    {"codificar", json_codificar, 1},
                                    {"formato", json_formato, 1},
-                                   {NULL, NULL}};
+                                   {NULL, NULL, 0}};
 
 LATINO_API void latC_abrir_liblatino_json(lat_mv *mv) {
   latC_abrir_liblatino(mv, LIB_JSON_NAME, libjson);
