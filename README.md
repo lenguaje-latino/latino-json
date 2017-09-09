@@ -1,10 +1,10 @@
 ### latino-json
-Libreria dinamica para manejo de json en [latino](https://github.com/primitivorm/latino)
+Librería dinámica para manejo de json en [latino](https://github.com/primitivorm/latino)
 
 ##### Prerequisitos
 Tener instalado [latino](https://github.com/primitivorm/latino)
 
-### Instalacion
+### Instalación
 ##### linux
 ```
 git clone https://github.com/primitivorm/latino-json
@@ -14,12 +14,12 @@ chmod +x instalar.sh
 sudo bash instalar.sh
 ```
 
-##### Dependecias
+#### Dependecias
 [jansson](https://github.com/akheron/jansson)
 
-##### Uso de esta libreria en codigo latino
+##### Uso de esta librería en código latino
 ```
-//necesario para agregar la libreria dinamica
+//necesario para agregar la librería dinamica
 incluir("json")
 
 escribir("-----------------------------------------------------")
@@ -38,4 +38,4 @@ escribir(cad)
 
 ```
 
-##### Cualquier aportacion o sugerencia es bienvenida
+##### Cualquier aportación o sugerencia es bienvenida
